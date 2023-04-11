@@ -296,15 +296,14 @@ class App(threading.Thread):
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
                                         pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
+
                         right_image.pack(side='right',
                                          padx=(int(screen_size_db.split('x')[
                                                        0]) - tree_width - car_width - apple_width) / 4,
                                          pady=5)
                         self.window.update()
-                        time.sleep(1 / right_frequency)
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
                         right_image.pack_forget()
                     elif time.time() >= cur_time + duration and time.time() <= cur_time + duration * 2 and stopflag == []:
                         # 10
@@ -377,15 +376,14 @@ class App(threading.Thread):
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
                                         pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
+
                         right_image.pack(side='right',
                                          padx=(int(screen_size_db.split('x')[
                                                        0]) - tree_width - car_width - apple_width) / 4,
                                          pady=5)
                         self.window.update()
-                        time.sleep(1 / right_frequency)
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
                         right_image.pack_forget()
                     elif time.time() >= cur_time + duration * 2 and time.time() <= cur_time + duration * 3 and stopflag == []:
                         # 8
@@ -444,15 +442,14 @@ class App(threading.Thread):
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
                                         pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
+
                         right_image.pack(side='right',
                                          padx=(int(screen_size_db.split('x')[
                                                        0]) - tree_width - car_width - apple_width) / 4,
                                          pady=5)
                         self.window.update()
-                        time.sleep(1 / right_frequency)
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
                         right_image.pack_forget()
                     elif time.time() >= cur_time + duration * 3 and time.time() <= cur_time + duration * 4 and stopflag == []:
                         # 6
@@ -497,15 +494,14 @@ class App(threading.Thread):
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
                                         pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
+
                         right_image.pack(side='right',
                                          padx=(int(screen_size_db.split('x')[
                                                        0]) - tree_width - car_width - apple_width) / 4,
                                          pady=5)
                         self.window.update()
-                        time.sleep(1 / right_frequency)
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
                         right_image.pack_forget()
                     elif time.time() >= cur_time + duration * 4 and time.time() <= cur_time + duration * 5 and stopflag == []:
                         # 4
@@ -536,15 +532,14 @@ class App(threading.Thread):
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
                                         pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
+
                         right_image.pack(side='right',
                                          padx=(int(screen_size_db.split('x')[
                                                        0]) - tree_width - car_width - apple_width) / 4,
                                          pady=5)
                         self.window.update()
-                        time.sleep(1 / right_frequency)
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
                         right_image.pack_forget()
                     elif time.time() >= cur_time + duration * 5 and time.time() <= cur_time + duration * 6 and stopflag == []:
                         # 2
@@ -561,15 +556,14 @@ class App(threading.Thread):
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
                                         pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
+
                         right_image.pack(side='right',
                                          padx=(int(screen_size_db.split('x')[
                                                        0]) - tree_width - car_width - apple_width) / 4,
                                          pady=5)
                         self.window.update()
-                        time.sleep(1 / right_frequency)
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
                         right_image.pack_forget()
                     else:
                         break
