@@ -15,7 +15,7 @@ except:
         print('Не удается скачать один или несколько модулей, необходимых для корректной работы бота. '
               'Пожалуйста, проверьте соединение и перезапустите программу.')
 
-version = 'v1.0.3 release'
+version = 'v1.0.4 release'
 
 import tkinter as tk
 import tkinter.ttk as ttk
@@ -222,6 +222,62 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack(side='left',
+                                        padx=(int(screen_size_db.split('x')[
+                                                      0]) - tree_width - car_width - apple_width) / 4,
+                                        pady=5)
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack(side='left',
+                                        padx=(int(screen_size_db.split('x')[
+                                                      0]) - tree_width - car_width - apple_width) / 4,
+                                        pady=5)
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack(side='left',
+                                        padx=(int(screen_size_db.split('x')[
+                                                      0]) - tree_width - car_width - apple_width) / 4,
+                                        pady=5)
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack(side='left',
+                                        padx=(int(screen_size_db.split('x')[
+                                                      0]) - tree_width - car_width - apple_width) / 4,
+                                        pady=5)
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack(side='left',
+                                        padx=(int(screen_size_db.split('x')[
+                                                      0]) - tree_width - car_width - apple_width) / 4,
+                                        pady=5)
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack(side='left',
+                                        padx=(int(screen_size_db.split('x')[
+                                                      0]) - tree_width - car_width - apple_width) / 4,
+                                        pady=5)
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
+                        left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -236,6 +292,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -243,6 +301,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -250,48 +310,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
-                        left_image.pack(side='left',
-                                        padx=(int(screen_size_db.split('x')[
-                                                      0]) - tree_width - car_width - apple_width) / 4,
-                                        pady=5)
                         self.window.update()
                         time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
-                        left_image.pack(side='left',
-                                        padx=(int(screen_size_db.split('x')[
-                                                      0]) - tree_width - car_width - apple_width) / 4,
-                                        pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
-                        left_image.pack(side='left',
-                                        padx=(int(screen_size_db.split('x')[
-                                                      0]) - tree_width - car_width - apple_width) / 4,
-                                        pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
-                        left_image.pack(side='left',
-                                        padx=(int(screen_size_db.split('x')[
-                                                      0]) - tree_width - car_width - apple_width) / 4,
-                                        pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
-                        left_image.pack(side='left',
-                                        padx=(int(screen_size_db.split('x')[
-                                                      0]) - tree_width - car_width - apple_width) / 4,
-                                        pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
-                        left_image.pack(side='left',
-                                        padx=(int(screen_size_db.split('x')[
-                                                      0]) - tree_width - car_width - apple_width) / 4,
-                                        pady=5)
-                        self.window.update()
-                        time.sleep(1 / left_frequency)
-                        left_image.pack_forget()
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -305,6 +325,8 @@ class App(threading.Thread):
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
                         right_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                     elif time.time() >= cur_time + duration and time.time() <= cur_time + duration * 2 and stopflag == []:
                         # 10
                         print('10')
@@ -316,6 +338,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -323,6 +347,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -330,6 +356,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -337,6 +365,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -344,6 +374,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -351,6 +383,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -358,6 +392,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -365,6 +401,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -372,6 +410,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -385,6 +425,8 @@ class App(threading.Thread):
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
                         right_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                     elif time.time() >= cur_time + duration * 2 and time.time() <= cur_time + duration * 3 and stopflag == []:
                         # 8
                         print('8')
@@ -396,6 +438,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -403,6 +447,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -410,6 +456,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -417,6 +465,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -424,6 +474,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -431,6 +483,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -438,6 +492,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -451,6 +507,8 @@ class App(threading.Thread):
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
                         right_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                     elif time.time() >= cur_time + duration * 3 and time.time() <= cur_time + duration * 4 and stopflag == []:
                         # 6
                         print('6')
@@ -462,6 +520,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -469,6 +529,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -476,6 +538,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -483,6 +547,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -490,6 +556,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -503,6 +571,8 @@ class App(threading.Thread):
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
                         right_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                     elif time.time() >= cur_time + duration * 4 and time.time() <= cur_time + duration * 5 and stopflag == []:
                         # 4
                         print('4')
@@ -514,6 +584,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -521,6 +593,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -528,6 +602,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -541,6 +617,8 @@ class App(threading.Thread):
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
                         right_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                     elif time.time() >= cur_time + duration * 5 and time.time() <= cur_time + duration * 6 and stopflag == []:
                         # 2
                         print('2')
@@ -552,6 +630,8 @@ class App(threading.Thread):
                         self.window.update()
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
                                                       0]) - tree_width - car_width - apple_width) / 4,
@@ -565,26 +645,10 @@ class App(threading.Thread):
                         time.sleep(1 / left_frequency)
                         left_image.pack_forget()
                         right_image.pack_forget()
+                        self.window.update()
+                        time.sleep(1 / left_frequency)
                     else:
                         break
-
-                    # if cur_time >= left_image_countdown:
-                    #     left_image_countdown += 2 / left_frequency
-                    #     left_image.pack(side='left',
-                    #                     padx=(int(screen_size_db.split('x')[0])-tree_width-car_width-apple_width)/4,
-                    #                     pady=5)
-                    #     self.window.update()
-                    #     time.sleep(1 / left_frequency)
-                    #     left_image.pack_forget()
-                    #
-                    # if cur_time >= right_image_countdown:
-                    #     right_image_countdown += 2 / right_frequency
-                    #     right_image.pack(side='right',
-                    #                      padx=(int(screen_size_db.split('x')[0])-tree_width-car_width-apple_width)/4,
-                    #                      pady=5)
-                    #     self.window.update()
-                    #     time.sleep(1 / right_frequency)
-                    #     right_image.pack_forget()
 
                     self.window.update()
 
