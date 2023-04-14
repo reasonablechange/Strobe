@@ -15,7 +15,7 @@ except:
         print('Не удается скачать один или несколько модулей, необходимых для корректной работы бота. '
               'Пожалуйста, проверьте соединение и перезапустите программу.')
 
-version = 'v1.0.5 release'
+version = 'v1.0.4 release'
 
 import tkinter as tk
 import tkinter.ttk as ttk
