@@ -15,7 +15,7 @@ except:
         print('Не удается скачать один или несколько модулей, необходимых для корректной работы бота. '
               'Пожалуйста, проверьте соединение и перезапустите программу.')
 
-version = 'v1.0.4 release'
+version = 'v1.0.6 release'
 
 import tkinter as tk
 import tkinter.ttk as ttk
@@ -214,7 +214,7 @@ class App(threading.Thread):
                     while i < ratio:
                         left_image.pack(side='left',
                                         padx=(int(screen_size_db.split('x')[
-                                                      0]) - tree_width - car_width - apple_width) / 4,
+                                                      0]) - tree_width) / 2,
                                         pady=5)
                         self.window.update()
                         time.sleep(1 / left_frequency)
@@ -225,7 +225,7 @@ class App(threading.Thread):
 
                     right_image.pack(side='right',
                                      padx=(int(screen_size_db.split('x')[
-                                                   0]) - tree_width - car_width - apple_width) / 4,
+                                                   0]) - tree_width) / 2,
                                      pady=5)
                     self.window.update()
                     time.sleep(1 / left_frequency)
